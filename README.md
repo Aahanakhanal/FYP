@@ -9,6 +9,7 @@ The above-mentioned pdf file is the project plan.
 
 
 
+WIREFRAME OF USER SIDE (PLANNING)
 
 <img width="581" alt="Blood Donation" src="https://github.com/Aahanakhanal/FYP/assets/85916187/b77363ea-8371-4cd1-8f89-22e2f26323f3">
 <img width="596" alt="Donate Blood" src="https://github.com/Aahanakhanal/FYP/assets/85916187/76566d78-88a1-4c81-a56e-0c4fbd463530">
