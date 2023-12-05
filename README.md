@@ -6,7 +6,7 @@ The above-mentioned picture is the mindmap.
 [PROJECTPLAN FYP.pdf](https://github.com/Aahanakhanal/FYP/files/13040353/PROJECTPLAN.FYP.pdf)
 
 The above-mentioned pdf file is the project plan.
---------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 WIREFRAME OF USER SIDE (PLANNING)
@@ -17,3 +17,5 @@ Figma Link: https://www.figma.com/file/h7ejPlDx43mp6i0xJ9NySF/Untitled?type=desi
 <img width="543" alt="Login page" src="https://github.com/Aahanakhanal/FYP/assets/85916187/30eaa8cc-1fc9-4b85-8edc-b0b1180421c5">
 <img width="592" alt="Search Blood" src="https://github.com/Aahanakhanal/FYP/assets/85916187/1a264a6b-af30-4dbf-9152-9689c2a4fba4">
 <img width="610" alt="View orders" src="https://github.com/Aahanakhanal/FYP/assets/85916187/b457ec26-a407-4b9f-b95a-4b95439d1e73">
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
