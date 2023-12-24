@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+{% if user.is_authenticated %}
+<h3>Hello world!</h3>
+<h4>I m  successfully logged in.</h4>
+<button type="submit"><a href="/signout">SignOut</a></button>
+{% else %}
+
+<p> im not logged in</p>
+<button type="submit"><a href="/signin">Signin</a></button>
+{% endif %}
+    
+</body>
+</html>
