@@ -5,9 +5,8 @@ from django.contrib import messages
 
 
 
-def home(request):
-    return render(request, "dashboard.html")
-
+def home_view(request):
+    return render(request, 'blood/index.html')
 
 
 

@@ -1,0 +1,234 @@
+{% load static %}
+{% load widget_tweaks %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" media="all">
+    <style>
+        /* Add your custom styles here */
+        /* Example styles: */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #aca9b3 !important; /* Updated background color */
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .page-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: white; /* Card background color */
+        }
+
+        .card-heading {
+            background-color: #dc3545;
+            color: white;
+            border-radius: 15px 15px 0 0;
+            padding: 20px;
+            text-align: center; /* Centering title */
+        }
+
+        .card-body {
+            padding: 30px;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .form-row {
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        .input--style-5 {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+        }
+
+        .btn--radius-2 {
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    {% include "blood/navbar.html" %}
+
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                       
+                        </div>
+                        <div class="card">
+                            <div class="card-heading">
+                                <h2 class="title">Admin Login</h2>
+                            </div>
+                            <div class="card-body" style="margin-top: -20px;"> <!-- Adjusting margin-top -->
+                                <div class="text-center mb-4">
+                                    <img src="{% static 'image/nblf.png' %}" alt="Image" class="img-fluid">
+                                </div>
+                                <form method="POST">
+                                    {% csrf_token %}
+                                    <div class="form-row">
+                                        <div class="name">Username</div>
+                                        <div class="value">
+                                            <input type="text" name="username" class="input--style-5 form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="name">Password</div>
+                                        <div class="value">
+                                            <input type="password" name="password" class="input--style-5 form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-row d-flex justify-content-between align-items-center">
+                                        <button class="btn btn--radius-2 btn-danger" type="submit">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Bootstrap and other scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVC
+maxcdn.bootstrapcdn.com
+meu amor❤️
+Sakar Gautam
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css" />
+
+    <style type="text/css">
+      .navbar-brand {
+        font-size: 24px;
+        font-family: "Arial", sans-serif;
+        text-transform: uppercase;
+        color: #050505; /* Changed text color to white */
+        margin-right: auto;
+      }
+
+      .navbar-nav .nav-link {
+        font-size: 16px;
+        transition: 0.3s;
+        color: #040404; /* Changed text color to white */
+        margin-right: 20px;
+        font-weight: 500;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #010101;
+      }
+
+      .navbar-dark .navbar-toggler-icon {
+        /* Changed color of the toggle icon */
+        background-color: #030202;
+      }
+
+      .navbar-dark .navbar-collapse {
+        background-color: #020202; /* Changed background color to black */
+        border-radius: 5px;
+        padding: 10px;
+        margin-left: 50px;
+      }
+
+      .dropdown-menu {
+        background-color: #d9c0c0; /* Changed dropdown background color to black */
+      }
+
+      .dropdown-item {
+        color: #000 !important;
+        font-size: 16px;
+        transition: 0.3s;
+      }
+
+      .dropdown-item:hover {
+        background-color: #fff;
+        color: #050505 !important; /* Changed hover color to black */
+      }
+
+      /* Increased navbar height */
+      .navbar {
+        height: 100px; /* Adjust this value to increase/decrease height */
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #f8f3f3">
+      <div class="container">
+        <a href="/" class="navbar-brand"><img src="static/image/logo-no-background1.png" alt="Logo" /></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus">Our Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                Login
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Patient</a>
+                <a class="dropdown-item" href="#">Donor</a>
+                <a class="dropdown-item" href="/adminlogin">Admin</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Add your content here -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
