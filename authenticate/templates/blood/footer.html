@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome CSS -->
+  <style>
+    /* Your existing CSS styles */
+    .footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      background-color: #000; /* Changed to black */
+      color: white;
+      text-align: center;
+      padding: 20px 0; /* Increased padding for better spacing */
+    }
+    /* Additional styles for social media icons */
+    .social-icons {
+      margin-top: 15px; /* Space between contact form and social icons */
+    }
+    .social-icons a {
+      color: white;
+      margin: 0 10px;
+      font-size: 24px;
+      text-decoration: none;
+      transition: transform 0.3s ease-in-out;
+    }
+    .social-icons a:hover {
+      transform: scale(1.2); /* Increase size on hover */
+    }
+    .contact-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px; /* Added margin for form spacing */
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background-color: #fff; /* Added white background for form fields */
+    }
+    .contact-form input[type="submit"] {
+      background-color: #FF0018;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <div class="contact-header text-center" >
+    <h2>Contact Us</h2>
+  </div>
+
+
+
+  <div class="contact-form">
+    <form action="#" method="post"> <!-- Replace '#' with the form action URL -->
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <!-- Social media icons -->
+  <div class="social-icons">
+    <a href="https://example.com/facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://example.com/twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://example.com/instagram"><i class="fab fa-instagram"></i></a>
+    <!-- Add more social icons and links as needed -->
+  </div>
+  <div class="footer">
+    <p>Blood Bank Management System Copyright&copy; 2024</p>
+  </div>
+
+</body>
+</html>
